@@ -83,7 +83,7 @@ public class ReviewJobLeadsActivity
         protected List<JobLead> doInBackground( Void... params ) {
             List<JobLead> jobLeadsList = jobLeadsData.retrieveAllJobLeads();
 
-            Log.d( DEBUG_TAG, "JobLeadDBReaderTask: Job leads retrieved: " + jobLeadsList.size() );
+            //Log.d( DEBUG_TAG, "JobLeadDBReaderTask: Job leads retrieved: " + jobLeadsList.size() );
 
             return jobLeadsList;
         }
